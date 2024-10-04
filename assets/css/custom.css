@@ -1,0 +1,110 @@
+.bapperida {
+    margin-top: 10px;
+}
+
+.berita {
+	margin-top: -50px;
+}
+
+.berita-kota .item {
+	box-sizing: content-box;
+	padding: 10px 10px 10px 10px;
+	margin: 30px 15px;
+	height: 600px;
+	box-shadow: 0px 2px 12px rgba(44, 73, 100, 0.08);
+	position: relative;
+	background: #fff;
+}
+
+.berita-kota .item .berita-kota-img {
+    width: 100%;
+    max-height: 325px;
+    border-radius: 10px;
+    border: 6px solid #fff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* position: absolute; */
+    /* left: -45px; */
+    align-items: center;
+}
+
+.btn-submit {
+	background: #1977cc;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+.infografis .count-box {
+	padding: 0px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background: #fff;
+	/* background-size: cover; */
+}
+
+.infografis {
+    /* background: #f1f7fd; */
+    padding: 70px 0 60px;
+}
+
+.main-slider {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.main-slider .overlay {
+    width: 100%;
+    height: 98%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    z-index: 1299;
+	margin-top: 17px;
+}
+
+.news-date {
+	color: #3f4254;
+    background-color: #e4e6ef;
+	display: inline-block;
+    padding: .5em .85em;
+    font-size: .85rem;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .475rem;
+	font-weight: 600 !important;
+	margin-bottom: 10px;
+}
+
+.news-image {
+	border-radius: .475rem;
+  	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 425px;
+	position: relative !important;
+	display: block !important;
+	margin-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+    .bapperida {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .testimonials .testimonial-item {
+        height: 450px;
+    }
+}
